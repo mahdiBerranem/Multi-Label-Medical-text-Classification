@@ -15,6 +15,19 @@ The use of fusing the prediction of all classifiers or selected classifiers in
 this work was suggested in anticipation of better performance, regardless of
 the base used and to better generalize our contribution.
 
+The Ohsumed collection is a subset of the MEDLINE database, which is a
+bibliographic database of important peer-reviewed medical literature maintained
+by the National Library of Medicine. This dataset is multi-label text
+related problem type. The subset we consider is the collection consisting
+of the first 20,000 documents from the 50,216 medical abstracts of the year
+1991. The classification scheme consists of the 23 Medical Subject Headings
+(MeSH) categories of cardiovascular diseases. After selecting such
+category subset, the document number is 13,929. The main task was to classify
+those categories where the documents can belong to several classes, for example, an abstract can belong to four types of diseases (Classes: C17, C1,
+C3, C23). This data collection is available at http://disi.unitn.it/moschitti/corpora.htm.
+
+Dataprepar.ipynb This file is for preparing and converting the dataset from Files to csv forma. if you want the test and train in the same file just merge it.
+
 ## The following diagram illustrates the main steps of the approach.
 
 ![SHEMAVERSIONFINAL](https://user-images.githubusercontent.com/51234043/135873673-c14bb276-5609-4794-8518-1f34f5b40464.png)
