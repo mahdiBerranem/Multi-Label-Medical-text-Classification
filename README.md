@@ -17,16 +17,4 @@ the base used and to better generalize our contribution.
 
 ## The following diagram illustrates the main steps of the approach.
 
-
-
-
-
-
-
-
-## Bird’s-eye view of the project:
-* Part-1: Overview of Multi-label classification.
-* Part-2: Problem definition & evaluation metrics.
-* Part-3: Exploratory data analysis.
-* Part-4: Data pre-processing.
-* Part-5: Multi-label classification techniques.
+![SHEMAVERSIONFINAL](https://user-images.githubusercontent.com/51234043/135873673-c14bb276-5609-4794-8518-1f34f5b40464.png)
